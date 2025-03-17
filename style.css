@@ -30,7 +30,6 @@ body {
 }
 .search-icon {
     font-size: 18px;
-    color: white;
     cursor: pointer;
     margin-left: 2px;
 }
@@ -83,12 +82,10 @@ nav ul li a {
 /* Banner */
 .banner {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     background-image: url('image/baner.jpg');
     color: white;
     padding: 50px 150px;
-    flex: 1;
 }
 
 .banner-content {
@@ -96,18 +93,19 @@ nav ul li a {
 }
 
 .banner h1 {
-    font-size: 60px;
+    font-size: 90px;
     font-weight: bold;
+    color: transparent; /* Ẩn màu chữ */
+    -webkit-text-stroke: 2px white; /* Viền đen 2px */
 }
-
 .banner p {
     font-size: 18px;
 }
 
 .btn {
     display: inline-block;
-    background: #00A6FF;
-    color: white;
+    background: #67dafa;
+    color: rgb(2, 79, 174);
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
