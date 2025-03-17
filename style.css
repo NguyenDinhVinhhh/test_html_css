@@ -95,8 +95,8 @@ nav ul li a {
 .banner h1 {
     font-size: 90px;
     font-weight: bold;
-    color: transparent; /* Ẩn màu chữ */
-    -webkit-text-stroke: 2px white; /* Viền đen 2px */
+    color: transparent; 
+    -webkit-text-stroke: 2px white; 
 }
 .banner p {
     font-size: 18px;
@@ -116,9 +116,9 @@ nav ul li a {
 /*container*/
 
 .container{
-    width: 80%; /* Content nhỏ hơn header và footer */
-    max-width: 1200px; /* Giới hạn tối đa */
-    margin: auto; /* Căn giữa */
+    width: 80%; 
+    max-width: 1200px; 
+    margin: auto; 
     text-align: center;
     align-items: center;
     flex-grow: 1;
@@ -152,13 +152,13 @@ nav ul li a {
 }
 .container .time .box{
     display: flex;
-    justify-content: space-between; /* Hoặc dùng space-around/space-evenly */
+    justify-content: space-between; 
     align-items: center;
     width: 40%;
     padding: 5px;
 }
 .container .time .box .box-item{
-    width: 20%; /* 4 box đều nhau (dư một chút để tránh tràn) */
+    width: 20%;
     height: 100px;
     background: linear-gradient(to right, #52bae6, #095db2);
     display: flex;
@@ -183,10 +183,10 @@ nav ul li a {
     border-radius: 10px;
     margin-bottom: 50px;
     transition: transform 0.3s ease;
-    word-wrap: break-word; /* Cắt từ dài nếu vượt quá */
+    word-wrap: break-word;
     overflow-wrap: break-word;
     padding: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Tạo viền mờ */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 .list-products .item:hover{
     transform: scale(1.05);
@@ -289,11 +289,11 @@ ul li {
     background: #c9c7c7;
 }
 .contact-box input{
-    width: 84%; /* hoặc đặt số cụ thể như 400px */
-    height: 25px; /* Tăng chiều cao */
-    padding: 10px; /* Tăng khoảng cách bên trong */
-    font-size: 18px; /* Chữ to hơn */
-    border-radius: 23px; /* Bo góc */
+    width: 84%;
+    height: 25px; 
+    padding: 10px;
+    font-size: 18px; 
+    border-radius: 23px; 
     border: 1px solid #ccc;
     outline: none; /
 }
@@ -301,7 +301,7 @@ ul li {
 /*footer*/
 footer{
     display: flex;
-    justify-content: space-between; /* Hoặc dùng space-around */
+    justify-content: space-between; 
     background-color: #353434;
     color: white;
     padding: 80px 170px;
@@ -312,7 +312,7 @@ footer{
 .footer-box {
     width: 130px;
     height: 240px;
-    flex: 1; /* Chia đều mỗi box */
+    flex: 1; 
     padding: 10px;
     text-align: left;
 }
@@ -329,7 +329,7 @@ footer{
     color: white;
     margin-right: 7px;
 }
-/* Nếu muốn có khoảng cách giữa các box */
+
 .footer-box:not(:last-child) {
     margin-right: 30px;
 }
