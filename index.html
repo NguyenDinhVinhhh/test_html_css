@@ -6,17 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+       .title{
+            font-size: 37px;
+            font-weight: bold;
+            background: linear-gradient(to right, #46e0fb, blue); 
+            -webkit-background-clip: text; 
+            background-clip: text; 
+            color: transparent; 
+       }
+    </style>
 </head>
 <body>
+
     <div class="top-bar">
-        <span style="margin-right: 300px;">Giải pháp cho doanh nghiệp</span>
+        <span style="margin-right: 300px;">Nhất Tiên Văn - Giải pháp cho doanh nghiệp</span>
         <search>
             <input type="text" placeholder="Search...">
             <i class="fa-solid fa-magnifying-glass search-icon"></i>
         </search>
     </div>
+
     <header>
-        <div class="logo">Sports<span>Zone</span></div>
+        <div class="logo"><img src="image/logo.JPG" alt=""></div>
         <nav>
             <ul>
                 <li><a href="#">GIỚI THIỆU</a></li>
@@ -45,24 +57,26 @@
     <div class="container">
         <div class="event">
             <div class="event-top">
-                <h2>SỰ KIỆN SẮP DIỄN RA </h2>
+                <h2 class="title">SỰ KIỆN SẮP DIỄN RA </h2>
                 <h3>GIẢI VIỆT DÃ VỀ NGUỒN </h3>
-                <hr>
+                <hr style="background-color: rgb(7, 202, 0);height: 1px;">
                 <span>Kỉ niệm 60 năm ngày giải phóng miền Nam , thống nhất đất nước
                     (30/4/1945 - 30/4/1845) và chào mừng đại hội Đảng các cấp hưởng ứng đại biểu 
                     toàn quốc lần thứ 19 và chào mừng ngày sức khỏe toàn dân.
                 </span>
             </div>
-            <section class="banner"style="background-image: url('image/banner2.jpg');">
-                <div class="banner-content">
-                    <h1>GIAI VIET GIA VE NGUON </h1>
-                    <p>Website cung cấp nhiều thông tin về các giải thể thao quy mô khắp cả nước.</p>
+            <div class="event-bottom">
+                <div class="event-bottom-content">
+                    <h1>GIẢI VIỆT DÃ VỀ NGUỒN </h1>
+                    <p>Website cung cấp nhiều thông tin về các giải thể thao quy mô khắp cả nước.
+                        Cung cấp các dịch vũ hữu ích về các công nghệ thông tin trong lĩnh vực công nghệ
+                    </p>
                     <a href="#" class="btn">THAM GIA NGAY </a>
                 </div>
-            </section>
+            </div>
         </div>
         <div class="time">
-            <h2 style="color: rgb(13, 58, 237);">CÒN LẠI </h2>
+            <h2 class="title">CÒN LẠI </h2>
             <div class="box">
                 <div class="box-item">01 <br> Ngày</div>
                 <div class="box-item">24 <br> giờ</div>
@@ -104,12 +118,12 @@
                 <div class="read-on">Đọc tiếp ></div>
             </div>
         </ul>
-        <h1 style="font-size: 35px;">TỔ CHỨC SỰ KIỆN THỂ THAO CHUYÊN NGHIỆP </h1>
+        <h1 class="title" style="font-size: 35px;">TỔ CHỨC SỰ KIỆN THỂ THAO CHUYÊN NGHIỆP </h1>
         <div class="content">
             <div class="content-item">
                 <img src="image/thethao.jpg" alt="">
                 <div class="event-info">
-                    <h2 class="title blue">SỰ KIỆN KHU VỰC & CẤP ĐỘ CƠ SỞ</h2>
+                    <h2 class="blue">SỰ KIỆN KHU VỰC & CẤP ĐỘ CƠ SỞ</h2>
                     <ul>
                         <li>Tổ chức các sự kiện quy mô phù hợp với từng tổ chức, khu vực.</li>
                         <li>Tạo cơ hội cho vận động viên trẻ và tài năng thể hiện khả năng.</li>
@@ -120,7 +134,7 @@
             <div class="content-item">
                 <img src="image/thethao.jpg" alt="">
                 <div class="event-info">
-                    <h2 class="title blue">SỰ KIỆN KHU VỰC & CẤP ĐỘ CƠ SỞ</h2>
+                    <h2 class="blue">SỰ KIỆN KHU VỰC & CẤP ĐỘ CƠ SỞ</h2>
                     <ul>
                         <li>Tổ chức các sự kiện quy mô phù hợp với từng tổ chức, khu vực.</li>
                         <li>Tạo cơ hội cho vận động viên trẻ và tài năng thể hiện khả năng.</li>
@@ -131,7 +145,7 @@
             <div class="content-item">
                 <img src="image/thethao.jpg" alt="">
                 <div class="event-info">
-                    <h2 class="title blue">SỰ KIỆN KHU VỰC & CẤP ĐỘ CƠ SỞ</h2>
+                    <h2 class="blue">SỰ KIỆN KHU VỰC & CẤP ĐỘ CƠ SỞ</h2>
                     <ul>
                         <li>Tổ chức các sự kiện quy mô phù hợp với từng tổ chức, khu vực.</li>
                         <li>Tạo cơ hội cho vận động viên trẻ và tài năng thể hiện khả năng.</li>
@@ -141,11 +155,11 @@
             </div>
         </div>
         <div class="procedure">
-            <h1 style="font-size: 35px;">QUY TRÌNH TỔ CHỨC  </h1>
+            <h1 class="title" style="font-size: 35px;">QUY TRÌNH TỔ CHỨC  </h1>
             <div class="content-item">
                 <img src="image/icon1.JPG" alt="">
                 <div class="event-info">
-                    <h2 class="title blue">Lập kế hoạch tổ chức (PLAN) </h2>
+                    <h2 class="blue">Lập kế hoạch tổ chức (PLAN) </h2>
                     <ul>
                         <li>Xác định rõ mục tiêu của sự kiện: Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối....) </li>
                         <li>Xác định phạm vi của sự kiện: Đối tượng tham gia là ai? Quy mô sự kiện như thế nào? </li>
@@ -156,11 +170,10 @@
             <hr>
             <div class="content-item">
                 <div class="event-info">
-                    <h2 class="title blue">Lập kế hoạch tổ chức (PLAN) </h2>
+                    <h2 class=" blue">Điều phối nhân sự và triển khai vận hành (DO) </h2>
                     <ul>
                         <li>Xác định rõ mục tiêu của sự kiện: Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối....) </li>
                         <li>Xác định phạm vi của sự kiện: Đối tượng tham gia là ai? Quy mô sự kiện như thế nào? </li>
-                        <li>Lập kế hoạch chi tiết: Bao gồm lịch trình, địa điểm. ngân sách, nguồn lực cần thiết.</li>
                     </ul>
                 </div>
                 <img src="image/icon2.JPG" alt="">
@@ -169,29 +182,27 @@
             <div class="content-item">
                 <img src="image/icon3.JPG" alt="">
                 <div class="event-info">
-                    <h2 class="title blue">Lập kế hoạch tổ chức (PLAN) </h2>
+                    <h2 class=" blue">Truyền thông sự kiện (PR) </h2>
                     <ul>
                         <li>Xác định rõ mục tiêu của sự kiện: Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối....) </li>
                         <li>Xác định phạm vi của sự kiện: Đối tượng tham gia là ai? Quy mô sự kiện như thế nào? </li>
-                        <li>Lập kế hoạch chi tiết: Bao gồm lịch trình, địa điểm. ngân sách, nguồn lực cần thiết.</li>
                     </ul>
                 </div>
             </div>
             <hr>
             <div class="content-item">
                 <div class="event-info">
-                    <h2 class="title blue">Lập kế hoạch tổ chức (PLAN) </h2>
+                    <h2 class=" blue">Hậu sự kiện và đánh giá (CHECK & ACT) </h2>
                     <ul>
                         <li>Xác định rõ mục tiêu của sự kiện: Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối....) </li>
                         <li>Xác định phạm vi của sự kiện: Đối tượng tham gia là ai? Quy mô sự kiện như thế nào? </li>
-                        <li>Lập kế hoạch chi tiết: Bao gồm lịch trình, địa điểm. ngân sách, nguồn lực cần thiết.</li>
                     </ul>
                 </div>
                 <img src="image/icon4.JPG" alt="">
             </div>
         </div>
         <div class="news">
-            <h1 style="font-size: 35px;">TIN TỨC </h1>
+            <h1 class="title" style="font-size: 35px;">TIN TỨC </h1>
             <ul class="list-products">
                 <div class="item" style="width: 30%;">
                     <img class="image" src="image/bongda.jpg" alt="" >
@@ -244,18 +255,18 @@
             </ul>
         </div>
         <div class="contact">
-            <h1 style="font-size: 35px;">LIÊN HỆ VỚI CHÚNG TÔI </h1>
+            <h1 class="title" style="font-size: 35px;">LIÊN HỆ VỚI CHÚNG TÔI </h1>
             <div class="contact-box">
                 <h3 style="font-weight: bold;font-size: 21px;margin: 7px 0px;">Tổ chức các giải đấu thể thao uy tín  chuyên nghiệp và sáng <br>tạo để phù hợp với đơn vị của bạn</h3>
                 <span style="font-weight: bold;">hotline </span><span>: 0486014413</span>
                 <h4 style="color: blue; font-size: 25px;margin: 5px 0px;">Đăng kí nhận thông tin mới </h4>
-                <input type="text" placeholder="nhap email..." style="margin-top: 10px;">
+                <input type="text" placeholder="nhap email..." >
             </div>
         </div>
     </div>
     <footer>
         <div class="footer-box"  style="width: 100px;">
-            <h3 style="font-size: 30px;">SPORTZONE</h3>
+            <h3 style="font-size: 30px;color: rgb(5, 133, 238);">SPORTZONE</h3>
             <div class="icons">
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-solid fa-envelope"></i></a> 
