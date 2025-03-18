@@ -251,6 +251,9 @@ nav ul li a {
     padding: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+.list-products .item-a{
+    width: 45%;
+}
 .list-products .item:hover{
     transform: scale(1.05);
     border:5px solid #cb7e03;
@@ -466,7 +469,7 @@ footer{
         align-items: center;
     }
     .list-products .item {
-        width: 90%;
+        width: 80%;
         text-align: center;
     }
    .contact{
